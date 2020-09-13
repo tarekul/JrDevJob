@@ -1,12 +1,8 @@
 .row {
   max-height: 100vh;
 }
-.col-9 {
+.col-12 {
   background-color: #282c34;
-}
-
-.col-3 {
-  background-color: rgb(77, 162, 183);
 }
 
 .displayTitle {
@@ -32,13 +28,13 @@
 
 .image {
   position: fixed;
-  width: 20%;
-  left: 78%;
+  width: 7%;
+  left: 86%;
   opacity: 75%;
 }
 
 .jobs {
-  max-height: 84vh;
+  max-height: 82.5vh;
   overflow: auto;
   margin-top: 5%;
 }
@@ -48,6 +44,7 @@
   height: 6%;
   margin-bottom: 2%;
   padding: 2%;
+  border-radius: 5px;
 }
 
 .title {
