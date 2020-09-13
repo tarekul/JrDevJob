@@ -1,0 +1,90 @@
+.col-9 {
+  background-color: #282c34;
+}
+
+.col-3 {
+  background-color: rgb(77, 162, 183);
+}
+
+.displayTitle {
+  font-weight: 700;
+  color: cadetblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .displayTitle {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .displayTitle {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .displayTitle {
+    font-size: 30px;
+  }
+}
+
+.image {
+  position: fixed;
+  width: 20%;
+  left: 78%;
+  opacity: 75%;
+}
+
+.jobs {
+  overflow: auto;
+  margin-top: 5%;
+}
+
+.cardd {
+  background-color: lightgrey;
+  height: 6%;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.title {
+  text-transform: uppercase;
+  color: cornflowerblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .title,
+  .company,
+  p {
+    font-size: 13px;
+  }
+
+  img {
+    width: 30px;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .title,
+  .company,
+  p {
+    font-size: 15px;
+  }
+
+  img {
+    width: 50px;
+    float: right;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .title,
+  .company,
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    width: 70px;
+    float: right;
+  }
+}
