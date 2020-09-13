@@ -1,3 +1,6 @@
+.row {
+  max-height: 100vh;
+}
 .col-9 {
   background-color: #282c34;
 }
@@ -35,6 +38,7 @@
 }
 
 .jobs {
+  height: auto;
   overflow: auto;
   margin-top: 5%;
 }
