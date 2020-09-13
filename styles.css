@@ -38,7 +38,7 @@
 }
 
 .jobs {
-  height: auto;
+  max-height: 84vh;
   overflow: auto;
   margin-top: 5%;
 }
