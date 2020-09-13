@@ -27,14 +27,14 @@
 }
 
 .image {
-  position: fixed;
+  position: absolute;
   width: 5%;
   left: 86%;
   opacity: 75%;
 }
 
 .jobs {
-  max-height: 82.5vh;
+  max-height: 82vh;
   overflow: auto;
   margin-top: 5%;
 }
